@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+
+    <string name="ok">Ok</string>
+    <string name="no_connection">No internet Connection</string>
+    <string name="turn_on_connection">Please turn on internet connection to continue</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+
+    <string name="notification_title">Reminder</string>
+    <string name="notification_subtitle">Surprise!</string>
+    <string name="deletemsg">Are you sure want to delete this task?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="updatemsg">What to do with your task?</string>
+    <string name="update">Update</string>
+    <string name="nodatafound">No Task Found.\nClick + button to add task.</string>
+    <string name="add">Add</string>
+    <string name="clear">Clear</string>
+
+    <string-array name="category">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Protein</item>
+        <item>Dairy</item>
+        <item>Grains</item>
+        <item>Oils</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Pending</item>
+        <item>Completed</item>
+        <item>Reschedule</item>
+    </string-array>
+
+</resources>

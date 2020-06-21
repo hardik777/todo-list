@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardCornerRadius="@dimen/_3sdp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.todo.list.utils.CustomTextView
+                android:id="@+id/lblItemName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="Item Name"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+            <com.todo.list.utils.CustomTextView
+                android:id="@+id/lblDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="Description"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12ssp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.todo.list.utils.CustomTextView
+                android:id="@+id/lblDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:hint="Date"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <com.todo.list.utils.CustomTextView
+                android:id="@+id/lblTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:hint="Time"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_11ssp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/_4sdp"
+            android:src="@mipmap/ic_back"
+            android:tint="@color/colorArrow" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
