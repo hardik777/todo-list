@@ -20,7 +20,6 @@ import com.todo.list.R;
 import com.todo.list.data.adapter.ToDoAdapter;
 import com.todo.list.data.db.ToDoDatabase;
 import com.todo.list.data.model.ToDoData;
-//import com.todo.list.service.AlarmReceiver;
 import com.todo.list.ui.interfaces.ToDoActivityListener;
 import com.todo.list.utils.CustomTextView;
 
@@ -34,6 +33,8 @@ import butterknife.OnClick;
 import static com.todo.list.utils.CollectionUtils.ACTIVITY_RESULT;
 import static com.todo.list.utils.CollectionUtils.NewIntentWithDataActivityResult;
 import static com.todo.list.utils.CollectionUtils.ToastMessage;
+
+//import com.todo.list.service.AlarmReceiver;
 
 public class MainActivity extends AppCompatActivity implements ToDoActivityListener {
 

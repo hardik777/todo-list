@@ -22,12 +22,7 @@ import com.todo.list.data.model.ToDoData;
 import com.todo.list.service.AlarmReceiver;
 import com.todo.list.utils.CustomTextView;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.UUID;
 
 import butterknife.BindView;

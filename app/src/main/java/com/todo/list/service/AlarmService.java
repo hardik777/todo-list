@@ -20,7 +20,6 @@ import java.util.Random;
 import static android.app.Notification.VISIBILITY_PRIVATE;
 import static com.todo.list.service.AlarmReceiver.ANDROID_CHANNEL_ID;
 import static com.todo.list.service.AlarmReceiver.ANDROID_CHANNEL_NAME;
-import static com.todo.list.service.AlarmReceiver.TODOTEXT;
 
 public class AlarmService extends IntentService {
     private NotificationManager alarmNotificationManager;

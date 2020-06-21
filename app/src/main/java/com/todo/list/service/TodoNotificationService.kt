@@ -6,7 +6,6 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Build
 import android.util.Log
-import androidx.core.app.NotificationCompat
 import com.todo.list.R
 import com.todo.list.ui.view.MainActivity
 import java.util.*
