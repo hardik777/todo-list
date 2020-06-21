@@ -2,9 +2,12 @@
 ## Title
 ToDo List
 
-```java
-  public void setCardRatio(float cardRatio) {
-        this.cardRatio = cardRatio;
-        this.invalidate();
+```kotlin
+ class MyApplication : Application() {
+
+    override fun attachBaseContext(base: Context) {
+        super.attachBaseContext(base)
+        MultiDex.install(this)
     }
+}
 ```
